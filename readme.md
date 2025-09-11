@@ -83,4 +83,36 @@ Download and extract [Apache JMeter 5.6.3](https://jmeter.apache.org/download_jm
 Make sure you can run it from terminal:  
 ```bash
 jmeter
+```
 
+2. Open the Test Plan
+
+Launch JMeter GUI
+
+Go to File → Open
+
+Select automation-practice-safe-test.jmx from the jmeter/ folder
+
+3. Run the Test
+
+Click the green Start button (▶️) in the JMeter toolbar
+
+Monitor execution using the Summary Report or Aggregate Report
+
+4. View Results
+
+After execution, open the Summary Report to see:
+
+Average response times
+
+Min/Max times
+
+Throughput
+
+Error percentage
+
+5. Export Results
+
+Right-click on a Listener → Save Table Data → Export to CSV
+
+Or use JMeter CLI (non-GUI mode, recommended for performance):
