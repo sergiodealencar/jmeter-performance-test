@@ -62,3 +62,13 @@ Simulated actions for a virtual user:
 ---
 
 ## 📂 Repository Structure
+
+```
+automation-practice-load-testing/
+│
+├── README.md                  # Project overview and instructions
+├── jmeter/                    # JMeter test plans
+│   └── automation-practice-safe-test.jmx
+├── reports/                   # Example results (CSV, HTML, screenshots)
+└── LICENSE
+```
