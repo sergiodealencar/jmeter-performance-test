@@ -85,7 +85,7 @@ Make sure you can run it from terminal:
 jmeter
 ```
 
-2. Open the Test Plan
+### 2. Open the Test Plan
 
 Launch JMeter GUI
 
@@ -93,13 +93,13 @@ Go to File → Open
 
 Select automation-practice-safe-test.jmx from the jmeter/ folder
 
-3. Run the Test
+### 3. Run the Test
 
 Click the green Start button (▶️) in the JMeter toolbar
 
 Monitor execution using the Summary Report or Aggregate Report
 
-4. View Results
+### 4. View Results
 
 After execution, open the Summary Report to see:
 
@@ -111,7 +111,7 @@ Throughput
 
 Error percentage
 
-5. Export Results
+### 5. Export Results
 
 Right-click on a Listener → Save Table Data → Export to CSV
 
