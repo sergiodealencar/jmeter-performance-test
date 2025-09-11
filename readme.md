@@ -120,3 +120,5 @@ Or use JMeter CLI (non-GUI mode, recommended for performance):
 ```
 jmeter -n -t jmeter/automation-practice-safe-test.jmx -l reports/results.csv -e -o reports/html-report
 ```
+
+This generates an HTML Dashboard Report inside reports/html-report/.
