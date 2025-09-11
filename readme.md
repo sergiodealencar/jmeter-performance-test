@@ -72,3 +72,15 @@ automation-practice-load-testing/
 ├── reports/                   # Example results (CSV, HTML, screenshots)
 └── LICENSE
 ```
+
+
+---
+
+## ▶️ How to Run the Test
+
+### 1. Install JMeter
+Download and extract [Apache JMeter 5.6.3](https://jmeter.apache.org/download_jmeter.cgi).  
+Make sure you can run it from terminal:  
+```bash
+jmeter
+
