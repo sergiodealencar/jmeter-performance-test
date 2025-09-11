@@ -116,3 +116,7 @@ Error percentage
 Right-click on a Listener → Save Table Data → Export to CSV
 
 Or use JMeter CLI (non-GUI mode, recommended for performance):
+
+```
+jmeter -n -t jmeter/automation-practice-safe-test.jmx -l reports/results.csv -e -o reports/html-report
+```
