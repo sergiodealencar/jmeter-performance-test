@@ -1,0 +1,69 @@
+# 🚀 Performance Testing Project – Automation Practice (Safe Portfolio Version)
+
+## 📌 Project Objective
+This project demonstrates the use of **Apache JMeter** to design, execute, and analyze performance tests on the [Automation Practice](http://www.automationpractice.pl/index.php) demo e-commerce site.  
+
+⚠️ **Important:**  
+Tests are intentionally limited in scope (very few users, long ramp-up times) to avoid overloading or disrupting the public demo server.  
+In real-world projects, heavy load and stress testing must always be performed in **staging or controlled environments** with permission.
+
+---
+
+## 🛠 Tools
+- [Apache JMeter 5.6.3](https://jmeter.apache.org/)  
+- Git & GitHub for version control and documentation  
+- Optional: Local web server (Flask, Node.js, etc.) for heavier testing
+
+---
+
+## 🔍 Test Scenario (User Flow)
+Simulated actions for a virtual user:
+1. Open the **Home Page**  
+2. Navigate to a **Product Category**  
+3. Open a **Product Page**  
+4. Add a product to the **Cart**  
+
+---
+
+## ⚙️ JMeter Test Plan
+### Thread Group
+- **Light Load Test**:  
+  - Users: **5**  
+  - Ramp-up: **60 seconds**  
+  - Loop Count: **2**
+
+### Samplers
+- `1 - Home Page` → GET `/index.php`  
+- `2 - Category Page` → GET `/index.php?id_category=3`  
+- `3 - Product Page` → GET `/index.php?id_product=5`  
+- `4 - Add to Cart` → POST `/index.php?controller=cart`  
+
+### Assertions
+- Verify **HTTP 200 OK**  
+- Check for expected text (e.g., “Cart”) after adding an item  
+
+### Listeners
+- **Summary Report**  
+- **Aggregate Report**  
+- **Graph Results**  
+- **View Results Tree** (debugging only)  
+
+---
+
+## 📊 Metrics Collected
+- Response times (average, min, max)  
+- Throughput (requests per second)  
+- Error percentage  
+- Observed responsiveness under light load  
+
+---
+
+## 📑 Reports & Analysis
+- Results exported to **CSV** and **HTML Dashboard Reports**  
+- Example report included in the repo under `reports/`  
+  - [Sample CSV Results](reports/results.csv)  
+  - [Sample HTML Dashboard](reports/html-report/index.html)  
+
+---
+
+## 📂 Repository Structure
