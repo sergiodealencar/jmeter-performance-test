@@ -3,16 +3,11 @@
 ## 📌 Project Objective
 This project demonstrates the use of **Apache JMeter** to design, execute, and analyze performance tests on the [Automation Practice](http://www.automationpractice.pl/index.php) demo e-commerce site.  
 
-⚠️ **Important:**  
-Tests are intentionally limited in scope (very few users, long ramp-up times) to avoid overloading or disrupting the public demo server.  
-In real-world projects, heavy load and stress testing must always be performed in **staging or controlled environments** with permission.
-
 ---
 
 ## 🛠 Tools
 - [Apache JMeter 5.6.3](https://jmeter.apache.org/)  
 - Git & GitHub for version control and documentation  
-- Optional: Local web server (Flask, Node.js, etc.) for heavier testing
 
 ---
 
@@ -27,7 +22,7 @@ Simulated actions for a virtual user:
 
 ## ⚙️ JMeter Test Plan
 ### Thread Group
-- **Light Load Test**:  
+- **Load Test**:  
   - Users: **5**  
   - Ramp-up: **60 seconds**  
   - Loop Count: **2**
