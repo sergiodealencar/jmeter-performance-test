@@ -2,24 +2,21 @@
 
 ## Project Objective
 
-This project was created to evaluate the performance, scalability, and reliability of an e-commerce web application under different user behaviors. Using **Apache JMeter**, we designed test scenarios that simulate browsing, searching, and purchasing flows, as well as the loading of static resources.
+This project was created to evaluate the performance, scalability, and reliability of an [e-commerce web application](http://www.automationpractice.pl) under different user behaviors. Using **Apache JMeter**, we designed test scenarios that simulate browsing, searching, and purchasing flows, as well as the loading of static resources.
 
 ## Tools
 
 * **Apache JMeter** (load testing and performance monitoring)
 * **Java** (runtime requirement for JMeter)
-* **CSV Data Config** (parameterization of test data)
 * **Listeners** (to collect and visualize metrics)
 
 ## Test Scenario (User Flow)
 
 The JMeter test plan (`ecommerce.jmx`) contains multiple thread groups representing different user profiles:
 
-1. **Usuário Navegador (Browsing User)** – Navigates through the homepage and product pages.
-2. **Usuário Buscador (Searching User)** – Uses the search functionality to look up products.
-3. **Usuário Comprador (Purchasing User)** – Completes the purchase process (search, add to cart, checkout).
-4. **Arquivos Estáticos** – Requests static resources (CSS, JS, images) to simulate real-world page rendering.
-5. **Minhas Gravações** – A set of recorded actions simulating a typical user journey.
+1. **Browsing User** – Navigates through the homepage and product pages.
+2. **Searching User** – Uses the search functionality to look up products.
+3. **Purchasing User** – Completes the purchase process (search, add to cart, checkout).
 
 ## Metrics Collected
 
