@@ -38,20 +38,19 @@ JMeter listeners and reports provide:
 * **Transaction Controller Results** – Measuring end-to-end user flows.
 * **HTML Dashboard Report** – Comprehensive test execution report.
 
-### Sample Visuals (replace with your actual reports)
+### Sample Visuals
 
-![Aggregate Report](reports/sample-aggregate-report.png)
+[Aggregate Report](reports/sample-aggregate-report.png)
 
-![Response Time Graph](reports/sample-response-time-graph.png)
+[Response Time Graph](reports/sample-response-time-graph.png)
 
-![HTML Dashboard](reports/sample-html-dashboard.png)
+[HTML Dashboard](reports/sample-html-dashboard.png)
 
 ## Repository Structure
 
 ```
-📂 jmeter-ecommerce-test
- ┣ 📂 reports              # Test execution reports (HTML, CSV, PNG screenshots)
- ┣ 📂 data                 # Test data files (CSV, JSON)
+📂 jmeter-performance-test
+ ┣ 📂 reports              # Test execution reports (HTML, PNG screenshots)
  ┣ 📂 results              # JTL result files generated after execution
  ┣ 📄 ecommerce.jmx        # JMeter test plan
  ┣ 📄 README.md            # Project documentation
@@ -67,8 +66,8 @@ JMeter listeners and reports provide:
 2. **Clone this Repository**
 
    ```bash
-   git clone https://github.com/your-username/jmeter-ecommerce-test.git
-   cd jmeter-ecommerce-test
+   git clone https://github.com/sergiodealencar/jmeter-performance-test.git
+   cd jmeter-performance-test
    ```
 
 3. **Open the Test Plan in JMeter**
