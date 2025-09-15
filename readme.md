@@ -44,7 +44,7 @@ JMeter listeners and reports provide:
 
 [Response Time Graph](https://github.com/sergiodealencar/jmeter-performance-test/blob/main/reports/Response_Time_Graph.png)
 
-[HTML Dashboard](reports/sample-html-dashboard.png)
+[HTML Dashboard](https://github.com/sergiodealencar/jmeter-performance-test/blob/main/reports/HTML_Dashboard.png)
 
 ## Repository Structure
 
