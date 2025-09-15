@@ -40,7 +40,7 @@ JMeter listeners and reports provide:
 
 ### Sample Visuals
 
-[Aggregate Report](reports/sample-aggregate-report.png)
+[Aggregate Report](https://github.com/sergiodealencar/jmeter-performance-test/blob/main/reports/Aggregate_Report.png)
 
 [Response Time Graph](reports/sample-response-time-graph.png)
 
